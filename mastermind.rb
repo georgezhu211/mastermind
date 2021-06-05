@@ -11,7 +11,6 @@ class Mastermind
     while @turn < 11
       get_input
       puts "Turn: #{@turn}"
-      p @code
       p @guess
       give_clues
       break if game_over?
